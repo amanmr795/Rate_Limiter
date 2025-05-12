@@ -33,14 +33,14 @@ Each user is assigned a `SlidingWindow` rate limiter that:
       ...
       user 1 not able to access, Too many requests
 
-  User 2 sending requests:
-  user 2 Able to access
+      User 2 sending requests:
+      user 2 Able to access
 
-  Waiting for 1 second to reset rate limiter for user 1...
+      Waiting for 1 second to reset rate limiter for user 1...
 
-  User 1 trying again:
-  user 1 Able to access
-  ...
+      User 1 trying again:
+      user 1 Able to access
+      ...
 
 
 
