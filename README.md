@@ -28,10 +28,10 @@ Each user is assigned a `SlidingWindow` rate limiter that:
 - Click the green Run button or use Shift + F10
 
   ## Sample Output
-  User 1 sending requests:
-  user 1 Able to access
-  ...
-  user 1 not able to access, Too many requests
+      User 1 sending requests:
+      user 1 Able to access
+      ...
+      user 1 not able to access, Too many requests
 
   User 2 sending requests:
   user 2 Able to access
