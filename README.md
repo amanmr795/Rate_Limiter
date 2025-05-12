@@ -23,4 +23,24 @@ Each user is assigned a `SlidingWindow` rate limiter that:
 - Rejects new requests if limit is reached within the sliding time window
 - Automatically resets as time progresses
 
+## Run the Project:
+- Open Main.java
+- Click the green Run button or use Shift + F10
+
+  ## Sample Output
+  User 1 sending requests:
+  user 1 Able to access
+  ...
+  user 1 not able to access, Too many requests
+
+  User 2 sending requests:
+  user 2 Able to access
+
+  Waiting for 1 second to reset rate limiter for user 1...
+
+  User 1 trying again:
+  user 1 Able to access
+  ...
+
+
 
