@@ -42,5 +42,14 @@ Each user is assigned a `SlidingWindow` rate limiter that:
       user 1 Able to access
       ...
 
+## Use Cases
+- Web API request throttling
+- Login brute-force protection
+- Chat or messaging rate controls
+- Preventing abuse in public APIs
 
+## Future Enhancements
+- Token Bucket and Leaky Bucket implementations
+- Configurable rate limits per user
+- Integration with Redis for distributed rate limiting
 
